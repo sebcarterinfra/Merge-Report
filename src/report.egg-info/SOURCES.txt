@@ -1,0 +1,10 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/report/__init__.py
+src/report/main.py
+src/report.egg-info/PKG-INFO
+src/report.egg-info/SOURCES.txt
+src/report.egg-info/dependency_links.txt
+src/report.egg-info/top_level.txt
