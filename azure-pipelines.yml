@@ -21,11 +21,6 @@ steps:
     python -m build
   displayName: 'Install dependencies'
 
-- script: |
-    pip install pytest pytest-azurepipelines
-    pytest
-  displayName: 'pytest'
-
 - task: TwineAuthenticate@1
   inputs:
     artifactFeed: 'ReportMergeApp/report-merge-feed'
